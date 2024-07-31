@@ -1,5 +1,7 @@
 import { TonConnectUIProvider } from '@tonconnect/ui-react'
-import React, { useEffect } from 'react'
+// import React, { useEffect } from 'react'
+import React from 'react'
+
 // import { useLocation, useNavigate } from 'react-router-dom'
 
 import { RouterProvider } from 'app/providers'
