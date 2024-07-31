@@ -8,7 +8,7 @@ const AppNavigation: React.FC = () => {
   return (
     <nav className="app-nav">
       <ul className="app-nav__list">
-        {LIST_OF_LINKS.map((item, index) => (
+        {LIST_OF_LINKS?.map((item, index) => (
           <li key={index}>
             <NavItem
               path={item.path}

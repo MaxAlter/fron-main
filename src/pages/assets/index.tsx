@@ -17,9 +17,9 @@ const AssetsPage: React.FC = () => {
     $$commonStore.$assetsLoading,
   ])
 
-  const isStub = import.meta.env.VITE_IS_STUB_MODE === 'true' ? true : false
+  // const isStub = import.meta.env.VITE_IS_STUB_MODE === 'true' ? true : false
 
-  if (isStub) return <AssetsPageSkeleton />
+  // if (isStub) return <AssetsPageSkeleton />
 
   if (projectsLoading || assetsLoading) return <AssetsPageSkeleton />
 
