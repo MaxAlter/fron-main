@@ -29,7 +29,6 @@ const RouterProvider: React.FC = () => {
           index
           element={<AssetsPage />}
         />
-         <Route path="/"  element={<AssetsPage />} />
 
         <Route
           path={routePaths.assetDetails}

@@ -11,7 +11,7 @@ type Props = {
 const Projects: React.FC<Props> = ({ list }) => {
   return (
     <>
-      {list.map((project) => (
+      {list?.map((project) => (
         <Project
           key={project.contractAddress}
           count={project.count}
