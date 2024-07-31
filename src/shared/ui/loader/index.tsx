@@ -31,7 +31,7 @@ const ITEM_TRANSITION = {
 }
 
 const Loader: React.FC<Props> = ({ className, absolute }) => {
-  const isStub = import.meta.env.VITE_IS_STUB_MODE === 'true' ? true : false;
+  const isStub = import.meta.env.VITE_IS_STUB_MODE === 'true' ? true : false
   return (
     <div className={classNames('loader', absolute ? 'loader_absolute' : undefined, className)}>
       <div style={{ position: 'relative' }}>
@@ -57,16 +57,18 @@ const Loader: React.FC<Props> = ({ className, absolute }) => {
             />
           </motion.div>
         </div>
-        {isStub && (<div className="loader__start-sales">
-          <Typography textAlign="center">Sales Start</Typography>
-          <Typography
-            textAlign="center"
-            size="16"
-            weight="600"
-          >
-            18:00 CET, 18.06.2024
-          </Typography>
-        </div>)}
+        {isStub && (
+          <div className="loader__start-sales">
+            <Typography textAlign="center">Sales Start</Typography>
+            <Typography
+              textAlign="center"
+              size="16"
+              weight="600"
+            >
+              18:00 CET, 18.06.2024
+            </Typography>
+          </div>
+        )}
       </div>
     </div>
   )

@@ -17,9 +17,9 @@ const App: React.FC = () => {
 
   useEffect(() => {
     if (location.pathname === '/') {
-      navigate(routeAbsolutePaths.assets, { replace: true })
+      navigate(routeAbsolutePaths?.assets, { replace: true })
     }
-  }, [])
+  }, [location, navigate])
 
   return (
     <TonConnectUIProvider manifestUrl={import.meta.env.VITE_TON_CONNECT_MANIFEST}>
