@@ -1,0 +1,35 @@
+.nft-details-card {
+  &__top-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 14px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'a b';
+
+    &_discount {
+      grid-area: a;
+      justify-self: start;
+
+    }
+
+    &_pcs {
+      grid-area: b;
+      justify-self: end;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+  }
+
+  &__collection {
+    width: 90px;
+    height: 22px;
+  }
+}

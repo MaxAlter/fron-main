@@ -1,0 +1,41 @@
+.checkbox {
+  display: flex;
+
+  label {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+
+    &:checked + .checkbox__item {
+      background-color: var(--shamrock);
+      border-color: var(--shamrock);
+
+      .checkbox__check-mark {
+        display: inline-block;
+        color: var(--white);
+      }
+    }
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--regent-gray);
+    background-color: var(--white);
+    border-radius: 8px;
+  }
+
+  &__check-mark {
+    display: none;
+  }
+}

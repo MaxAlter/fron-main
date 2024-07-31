@@ -1,0 +1,38 @@
+@import "../../../../../../../../shared/assets/styles/typography";
+
+.review-docs-modal-content {
+  padding-bottom: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    & > * {
+      height: 28px;
+    }
+
+    a {
+      color: var(--azure-radiance);
+      text-decoration: underline;
+      @include fs-14;
+      @include weight-600;
+    }
+
+    &.__sold {
+      display: block;
+      text-align: center;
+
+      a {
+        padding-left: 5px;
+      }
+    }
+  }
+
+  &__title-description-layout {
+    padding: 0;
+  }
+}

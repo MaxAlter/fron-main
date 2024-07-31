@@ -1,0 +1,9 @@
+.use-voucher {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  &__icon {
+    color: var(--shamrock);
+  }
+}

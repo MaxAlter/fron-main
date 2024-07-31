@@ -1,0 +1,43 @@
+.project-skeleton {
+  overflow: hidden;
+  opacity: 0.32;
+
+  &__top {
+    padding: 24px 24px 12px 24px;
+    background: var(--light-blue);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  &__name-and-count {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  &__ipo-and-price {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__price {
+    display: flex;
+    gap: 7px;
+  }
+
+  &__bottom {
+    padding: 16px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: var(--pastel-blue);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+}

@@ -1,0 +1,14 @@
+.titled-content-base {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  &_row {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__title {
+    color: var(--regent-gray);
+  }
+}

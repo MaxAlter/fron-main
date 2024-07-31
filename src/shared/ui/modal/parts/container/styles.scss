@@ -1,0 +1,10 @@
+.modal-container {
+  background-color: var(--white);
+  border-radius: 20px 20px 0 0;
+  min-height: 200px;
+  max-height: 100vh;
+  z-index: 99;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}

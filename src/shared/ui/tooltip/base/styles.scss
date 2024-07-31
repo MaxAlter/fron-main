@@ -1,0 +1,18 @@
+.tooltip {
+  display: inline-flex;
+
+  &__trigger {
+    display: inline-flex;
+    color: inherit;
+
+    & > * {
+      color: inherit;
+    }
+  }
+
+  &__content {
+    padding: 16px;
+    border-radius: 16px !important;
+    background-color: var(--deep-night-blue) !important;
+  }
+}

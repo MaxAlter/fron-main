@@ -1,0 +1,29 @@
+.asset-details-skeleton {
+ position: relative;
+
+  &__info {
+    margin-top: 16px;
+  }
+
+  &__row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  &_docs {
+    display: flex;
+    margin-top: 24px;
+  }
+
+  &__price {
+    display: flex;
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__input {
+    margin-top: 24px;
+  }
+}

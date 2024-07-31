@@ -1,0 +1,26 @@
+.activation-nft-modal-content {
+  &__text {
+    margin-bottom: 8px;
+  }
+
+  &__instruction {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+    &-inner {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.nft-action-email input {
+  background-color: var(--soft-sky-blue);
+}
+
+.nft-action-email input::placeholder {
+  color: #8B8B99;
+}

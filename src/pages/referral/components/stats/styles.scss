@@ -1,0 +1,59 @@
+.stats-content {
+  height: auto;
+
+  &_info {
+    border-radius: 16px;
+    padding: 16px 16px 36px 16px;
+    background: var(--white);
+  }
+
+  &_click {
+    padding-bottom: 16px;
+  }
+
+  &_referrals,
+  &_pending,
+  &_total {
+    padding: 16px 0px 16px 0px;
+  }
+
+  &_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  &_tonBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_icon {
+      margin-right: 4px;
+    }
+  }
+
+  &_title {
+    margin-bottom: 20px;
+    line-height: 32px;
+  }
+
+  &_text {
+    line-height: 24px;
+  }
+
+  &_textLine {
+    float: left;
+    line-height: 20px;
+  }
+
+  &_desc {
+    line-height: 20px;
+    color: var(--light-grey);
+
+    &_margin {
+      margin-bottom: 12px;
+    }
+  }
+}

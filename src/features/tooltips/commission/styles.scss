@@ -1,0 +1,22 @@
+@import "../../../shared/assets/styles/typography";
+
+.selling-commission-tooltip {
+  display: inline-flex;
+
+  &__icon {
+    color: var(--regent-gray);
+  }
+
+  &__tooltip-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 2px 0 8px;
+
+    &-text {
+      span {
+        @include weight-700;
+      }
+    }
+  }
+}

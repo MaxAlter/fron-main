@@ -1,0 +1,47 @@
+@import "../../../assets/styles/typography";
+
+.button-primary {
+  color: var(--white);
+  @include weight-600;
+  transition: transform 0.125s ease-in-out;
+
+  &:disabled {
+    opacity: .5;
+  }
+
+  &:not(:disabled) {
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+
+  &_m {
+    border-radius: 8px;
+    @include fs-14;
+    height: 40px;
+  }
+
+  &_l {
+    border-radius: 16px;
+    @include fs-16;
+    height: 50px;
+  }
+
+  &_xl {
+    border-radius: 16px;
+    @include fs-16;
+    height: 56px;
+  }
+
+  &_primary {
+    background-color: var(--shamrock);
+  }
+
+  &_secondary {
+    background-color: var(--deep-night-blue);
+  }
+
+  &_third {
+    background-color: var(--shamrock);
+  }
+}

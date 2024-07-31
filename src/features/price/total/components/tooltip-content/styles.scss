@@ -1,0 +1,31 @@
+@import "../../../../../shared/assets/styles/typography";
+
+
+.total-price-tooltip-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 7px 0;
+
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+
+  &__row {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  &__text {
+    line-height: 20px;
+    text-align: center;
+  }
+
+  &__icon {
+    color: var(--error-red);
+  }
+}

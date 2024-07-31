@@ -1,0 +1,21 @@
+.tier-promotions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 'a b';
+
+  &__discount {
+    grid-area: a;
+    justify-self: start;
+
+  }
+
+  &__pcs {
+    grid-area: b;
+    justify-self: end;
+  }
+}

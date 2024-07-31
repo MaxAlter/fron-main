@@ -1,0 +1,8 @@
+.modal-header {
+  width: 100%;
+  position: relative;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 16px;
+}

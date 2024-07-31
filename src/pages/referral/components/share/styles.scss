@@ -1,0 +1,56 @@
+.share-content {
+  height: auto;
+
+  &_title {
+    margin-bottom: 12px;
+    line-height: 32px;
+  }
+
+  &_text {
+    margin-bottom: 20px;
+    line-height: 24px;
+    color: var(--regent-gray);
+  }
+
+  &_inputBox {
+    position: relative;
+    margin-bottom: 16px;
+
+    &_input {
+      width: 100%;
+      border-radius: 16px;
+      border: none;
+      padding: 16px 60px 16px 16px;
+      outline: none;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 600;
+      color: var(--deep-night-blue);
+    }
+
+    &_copy {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      border-radius: 0px 16px 16px 0px;
+      max-width: 56px;
+      height: 56px;
+      cursor: pointer;
+    }
+  }
+
+  &_telegram {
+    display: flex;
+    border-radius: 16px;
+    gap: 8px;
+    margin-bottom: 27px;
+    padding: 16px 0px 16px 0px;
+    height: auto;
+    background: #0088CC;
+
+    &_text {
+      line-height: 24px;
+    }
+  }
+}

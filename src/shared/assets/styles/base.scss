@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li, ol {
+  list-style: none;
+}
+
+body {
+  background-color: var(--soft-sky-blue);
+  color: var(--deep-night-blue);
+}
+
+.locked {
+  overflow: hidden;
+}

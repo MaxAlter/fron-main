@@ -1,0 +1,10 @@
+.tooltip-wrapper {
+  display: flex;
+  position: relative;
+
+  &__tooltip {
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../assets/styles/typography";
+
+.badge {
+  height: 22px;
+  width: max-content;
+  padding: 3px 5px 3px 3px;
+  border-radius: 29px;
+  color: var(--white);
+  @include fs-12;
+
+
+  &_primary {
+    background-color: var(--shamrock);
+  }
+
+  &_secondary {
+    background-color: var(--vulcan);
+  }
+}

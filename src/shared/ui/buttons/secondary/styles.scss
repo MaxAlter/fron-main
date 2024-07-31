@@ -1,0 +1,17 @@
+@import "../../../assets/styles/typography";
+
+.button-secondary {
+  color: var(--white);
+  @include weight-700;
+  @include fs-14;
+  padding: 8px 16px;
+  border-radius: 20px;
+
+  &_primary {
+    background-color: var(--mirage);
+  }
+
+  &_ghost {
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,25 @@
+.with-actions-layout {
+  display: grid;
+  grid-template-rows: 1fr max-content;
+  height: 100%;
+
+  &__content {
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+  }
+
+  &__actions {
+    position: sticky;
+    bottom: var(--footer-height);
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: var(--soft-sky-blue);
+    margin: 16px -16px 0 -16px;
+    padding: 16px 16px 14px 16px;
+  }
+}

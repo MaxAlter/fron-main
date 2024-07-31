@@ -1,0 +1,10 @@
+.private-view-restricted {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__text {
+    margin-bottom: 32px;
+  }
+}

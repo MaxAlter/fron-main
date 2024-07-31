@@ -1,0 +1,26 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  input {
+    padding: 16px;
+    color: var(--deep-night-blue);
+    outline: none;
+    background-color: var(--white);
+    font-weight: 600;
+    border-radius: 16px;
+    border: 1px solid transparent;
+
+    &::placeholder {
+      color: var(--deep-night-blue);
+      opacity: 0.8;
+    }
+  }
+
+  &_error {
+    input {
+      border-color: var(--error-red);
+    }
+  }
+}

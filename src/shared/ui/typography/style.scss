@@ -1,0 +1,50 @@
+@import "../../assets/styles/typography";
+
+.typography {
+  font-family: "Montserrat", sans-serif;;
+  text-align: left;
+
+  &_font-size {
+    &-24 {
+      @include fs-24;
+    }
+
+    &-20 {
+      @include fs-20;
+    }
+
+    &-16 {
+      @include fs-16;
+    }
+
+    &-14 {
+      @include fs-14;
+    }
+
+    &-12 {
+      @include fs-12;
+    }
+
+    &-10 {
+      @include fs-10;
+    }
+
+    &-8 {
+      @include fs-8;
+    }
+  }
+
+  &_font-weight {
+    &-700 {
+      @include weight-700;
+    }
+
+    &-600 {
+      @include weight-600;
+    }
+
+    &-500 {
+      @include weight-500;
+    }
+  }
+}

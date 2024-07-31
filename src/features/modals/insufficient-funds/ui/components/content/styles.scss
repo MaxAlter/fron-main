@@ -1,0 +1,12 @@
+.insufficient-funds-modal-content {
+  &__icon {
+    color: var(--error-red);
+  }
+
+  &__description {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+  }
+}

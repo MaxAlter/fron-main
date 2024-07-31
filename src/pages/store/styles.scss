@@ -1,0 +1,43 @@
+.store-page {
+  .with-actions-layout__actions {
+    margin-top: 0;
+  }
+
+  &__icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 17px;
+  }
+
+  &__content {
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  &__text {
+    padding: 0 32px;
+  }
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -70px;
+
+    &-bg, &-text {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+
+    &-bg {
+      max-width: 360px;
+      width: 100%;
+    }
+  }
+}

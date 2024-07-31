@@ -1,0 +1,12 @@
+.my-wallet-page {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}

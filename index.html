@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <title>MMPro RWA Store</title>
+    <script>
+      window.global = window;
+    </script>
+    <script type="module">
+      import {Buffer} from "buffer";
+      window.Buffer = Buffer;
+    </script>
+  </head>
+  <body>
+    <div id="tooltip-container" style='position: relative; z-index: 9999'></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
